@@ -32,12 +32,10 @@ end
 def read_from_hash(key, value)
   read_from = {
     key: "Steve",
-    Steve: "Tzvi"
+    value: "Tzvi"
   }
-  read_from[key] = value 
-  
-  
-  end 
+  read_from
+end 
     
     
 end 
