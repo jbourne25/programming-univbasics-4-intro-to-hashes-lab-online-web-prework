@@ -29,11 +29,8 @@ def my_hash_creator(key, value)
   my_hash
 end 
 
-def read_from_hash(key, value)
-  read_from = {
-    key: "Steve",
-    value: "Tzvi"
-  }
+def read_from_hash(hash, key)
+  hash[key]
 end 
     
     
