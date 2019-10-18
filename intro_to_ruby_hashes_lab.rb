@@ -34,8 +34,7 @@ def read_from_hash(key, value)
     key: "Steve",
     value: "Tzvi"
   }
-  read_from[key]
-  
+  read_from[key] = "Steve"
   end 
     
     
