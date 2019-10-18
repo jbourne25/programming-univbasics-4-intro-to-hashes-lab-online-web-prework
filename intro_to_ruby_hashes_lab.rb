@@ -37,7 +37,6 @@ def read_from_hash(key, value)
 end 
     
     
-end 
 
 
 def update_counting_hash(hash, key)
